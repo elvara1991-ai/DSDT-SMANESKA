@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Program DS & DT SMANESKA</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f7fa;
+      color: #333;
+    }
+    header {
+      background: #004d99;
+      color: white;
+      padding: 15px 30px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    header img {
+      height: 60px;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 40px;
+    }
+    h2 {
+      color: #004d99;
+    }
+    .gallery img {
+      width: 180px;
+      margin: 10px;
+      border-radius: 8px;
+      box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+    }
+    footer {
+      background: #004d99;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+    .social a {
+      margin: 0 10px;
+      color: white;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div>
+    <img src="logo-smaneska.png" alt="Logo SMANESKA">
+    <img src="logo-ds.png" alt="Logo Digital Skills">
+    <img src="logo-dt.png" alt="Logo Double Track">
+  </div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#smaneska">SMANESKA</a>
+    <a href="#ds">DS</a>
+    <a href="#dt">DT</a>
+    <a href="#social">Social Media</a>
+  </nav>
+</header>
+
+<section id="home">
+  <h2>Selamat Datang</h2>
+  <p>Selamat datang di website Program <b>Digital Skills (DS)</b> dan <b>Double Track (DT)</b> SMANESKA – SMA Negeri 1 Karangan, Kabupaten Trenggalek. 
+  Website ini dibuat untuk memberikan informasi mengenai program unggulan sekolah yang mendukung keterampilan digital dan keterampilan vokasi siswa.</p>
+</section>
+
+<section id="smaneska">
+  <h2>Tentang SMANESKA</h2>
+  <p><b>Letak:</b> [Isi alamat lengkap sekolah]</p>
+  <p><b>Visi:</b> [Isi visi sekolah]</p>
+  <p><b>Misi:</b> [Isi misi sekolah]</p>
+  <h3>Ekstrakurikuler</h3>
+  <ul>
+    <li>Digital Skills (DS)</li>
+    <li>Double Track (DT)</li>
+    <li>Pramuka</li>
+    <li>OSIS</li>
+    <li>Paskibra</li>
+    <!-- tambahkan lainnya -->
+  </ul>
+  <h3>Prestasi</h3>
+  <p>[Daftar prestasi yang diraih sekolah]</p>
+  <h3>Dokumentasi</h3>
+  <div class="gallery">
+    <img src="foto1.jpg" alt="Lingkungan Sekolah">
+    <img src="foto2.jpg" alt="Prestasi">
+  </div>
+  <p><a href="https://smaneska-trenggalek.sch.id" target="_blank">Kunjungi Website Resmi SMANESKA</a></p>
+</section>
+
+<section id="ds">
+  <h2>Program Digital Skills (DS)</h2>
+  <p><b>Apa itu DS?</b> Program Digital Skills adalah [penjelasan DS].</p>
+  <p><b>Penyelenggara:</b> [Siapa penyelenggaranya]</p>
+  <p><b>Kegiatan:</b> [Daftar kegiatan DS]</p>
+  <p><b>Prestasi:</b> [Prestasi DS]</p>
+  <h3>Dokumentasi</h3>
+  <div class="gallery">
+    <img src="ds1.jpg" alt="Kegiatan DS">
+    <img src="ds2.jpg" alt="Prestasi DS">
+  </div>
+  <p><a href="https://link-website-ds.com" target="_blank">Kunjungi Website DS</a></p>
+</section>
+
+<section id="dt">
+  <h2>Program Double Track (DT)</h2>
+  <p><b>Apa itu DT?</b> Program Double Track adalah [penjelasan DT].</p>
+  <p><b>Penyelenggara:</b> [Siapa penyelenggaranya]</p>
+  <p><b>Kegiatan:</b> [Daftar kegiatan DT]</p>
+  <p><b>Prestasi:</b> [Prestasi DT]</p>
+  <h3>Dokumentasi</h3>
+  <div class="gallery">
+    <img src="dt1.jpg" alt="Kegiatan DT">
+    <img src="dt2.jpg" alt="Prestasi DT">
+  </div>
+  <p><a href="https://link-website-dt.com" target="_blank">Kunjungi Website DT</a></p>
+</section>
+
+<section id="social">
+  <h2>Social Media</h2>
+  <div class="social">
+    <p>Ikuti SMANESKA, DS, dan DT di media sosial:</p>
+    <a href="https://youtube.com/" target="_blank">YouTube</a> |
+    <a href="https://facebook.com/" target="_blank">Facebook</a> |
+    <a href="https://tiktok.com/" target="_blank">TikTok</a> |
+    <a href="https://instagram.com/" target="_blank">Instagram</a>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2025 SMANESKA Karangan, Trenggalek | Program DS & DT</p>
+</footer>
+
+</body>
+</html>
